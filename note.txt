@@ -1,0 +1,7 @@
+-----------
+File f = new File("/static/imgs");
+System.out.println(f);
+System.out.println(f.getAbsolutePath());
+输出：
+\static\imgs
+D:\static\imgs

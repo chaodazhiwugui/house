@@ -1,0 +1,15 @@
+2019-10-01 18:33:27.997  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.AgencyMapper.select:] http-nio-8090-exec-4cid - ==>  Preparing: select id , name, address, phone, email, about_us, mobile, web_site from agency 
+2019-10-01 18:33:27.998  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.AgencyMapper.select:] http-nio-8090-exec-4cid - ==> Parameters: 
+2019-10-01 18:33:28.000  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.AgencyMapper.select:] http-nio-8090-exec-4cid - <==      Total: 0
+2019-10-01 18:33:34.112  [http-nio-8090-exec-6] DEBUG [czy.mooc.house.biz.mapper.UserMapper.selectUsersByQuery:] http-nio-8090-exec-6cid - ==>  Preparing: select * from user WHERE email = ? and passwd = ? and enable = ? 
+2019-10-01 18:33:34.113  [http-nio-8090-exec-6] DEBUG [czy.mooc.house.biz.mapper.UserMapper.selectUsersByQuery:] http-nio-8090-exec-6cid - ==> Parameters: 13415038974@163.com(String), 9774f20408063cc19ac79e8afff1b59e(String), 1(Integer)
+2019-10-01 18:33:34.116  [http-nio-8090-exec-6] DEBUG [czy.mooc.house.biz.mapper.UserMapper.selectUsersByQuery:] http-nio-8090-exec-6cid - <==      Total: 1
+2019-10-01 18:33:34.131  [http-nio-8090-exec-9] DEBUG [czy.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8090-exec-9cid - ==>  Preparing: select a.id, a.type, a.name, a.price, a.images, a.area, a.beds, a.baths, a.rating, a.remarks, a.properties, a.floor_plan, a.tags, a.create_time, a.city_id, a.community_id, a.address, a.state from house a WHERE state = 1 order by a.create_time desc limit ?,? 
+2019-10-01 18:33:34.134  [http-nio-8090-exec-9] DEBUG [czy.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8090-exec-9cid - ==> Parameters: 0(Integer), 8(Integer)
+2019-10-01 18:33:34.136  [http-nio-8090-exec-9] DEBUG [czy.mooc.house.biz.mapper.HouseMapper.selectPageHouses:] http-nio-8090-exec-9cid - <==      Total: 0
+2019-10-01 18:33:46.060  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.UserMapper.update:] http-nio-8090-exec-4cid - ==>  Preparing: update user SET phone = ?, name = ?, aboutme = ? where email = ? 
+2019-10-01 18:33:46.062  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.UserMapper.update:] http-nio-8090-exec-4cid - ==> Parameters: 13415038974(String), 超大只乌龟(String), 哈哈哈哈(String), 13415038974@163.com(String)
+2019-10-01 18:33:46.066  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.UserMapper.update:] http-nio-8090-exec-4cid - <==    Updates: 1
+2019-10-01 18:33:46.067  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.UserMapper.selectUsersByQuery:] http-nio-8090-exec-4cid - ==>  Preparing: select * from user WHERE email = ? 
+2019-10-01 18:33:46.068  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.UserMapper.selectUsersByQuery:] http-nio-8090-exec-4cid - ==> Parameters: 13415038974@163.com(String)
+2019-10-01 18:33:46.070  [http-nio-8090-exec-4] DEBUG [czy.mooc.house.biz.mapper.UserMapper.selectUsersByQuery:] http-nio-8090-exec-4cid - <==      Total: 1
