@@ -1,64 +1,42 @@
 package czy.mooc.house.common.page;
 
+import lombok.Getter;
+import lombok.Setter;
+
+/*
+ 分页实体
+ */
+@Getter
+@Setter
 public class PageParams {
-	private static final Integer PAGE_SIZE = 5;
 
-	private Integer pageSize;
-	private Integer pageNum;
-	private Integer offset;
-	private Integer limit;
-	
-	public static PageParams build(Integer pageSize,Integer pageNum){
-		if (pageSize == null) {
-			pageSize = PAGE_SIZE;
-		}
-		if (pageNum == null) {
-			pageNum = 1;
-		}
-		return new PageParams(pageSize, pageNum);
-	}
-	
-	public PageParams(){
-		this(PAGE_SIZE, 1);
-	}
-	
-	public PageParams(Integer pageSize,Integer pageNum){
-		this.pageNum = pageNum;
-		this.pageSize = pageSize;
-		this.offset = pageSize * (pageNum -1);
-		this.limit = pageSize;
-	}
+    //默认单页显示5条数据
+    private static final Integer PAGE_SIZE = 5;
 
-	public Integer getPageSize() {
-		return pageSize;
-	}
+    private Integer pageSize;//单页显示数量
+    private Integer pageNum; //页数
+    private Integer offset;  //当前页第一位
+    private Integer limit;   //当前页最后一位
 
-	public void setPageSize(Integer pageSize) {
-		this.pageSize = pageSize;
-	}
+    public static PageParams build(Integer pageSize, Integer pageNum) {
+        if (pageSize == null) {
+            pageSize = PAGE_SIZE;
+        }
+        if (pageNum == null) {
+            pageNum = 1;
+        }
+        return new PageParams(pageSize, pageNum);
+    }
 
-	public Integer getPageNum() {
-		return pageNum;
-	}
+    public PageParams() {
+        this(PAGE_SIZE, 1);
+    }
 
-	public void setPageNum(Integer pageNum) {
-		this.pageNum = pageNum;
-	}
-
-	public Integer getOffset() {
-		return offset;
-	}
-
-	public void setOffset(Integer offset) {
-		this.offset = offset;
-	}
-
-	public Integer getLimit() {
-		return limit;
-	}
-
-	public void setLimit(Integer limit) {
-		this.limit = limit;
-	}
+    public PageParams(Integer pageSize, Integer pageNum) {
+        this.pageNum = pageNum;
+        this.pageSize = pageSize;
+        this.offset = pageSize * (pageNum - 1);
+        this.limit = pageSize;
+    }
 
 }

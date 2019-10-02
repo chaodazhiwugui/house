@@ -5,3 +5,6 @@ System.out.println(f.getAbsolutePath());
 输出：
 \static\imgs
 D:\static\imgs
+
+----------
+保存图片时数据库存放的是相对路径，当取出路径时需要拼接上服务器图片存放地址前缀

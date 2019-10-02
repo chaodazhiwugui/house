@@ -1,42 +1,38 @@
 package czy.mooc.house.biz.mapper;
 
-import java.util.List;
-
+import czy.mooc.house.common.model.*;
 import czy.mooc.house.common.page.PageParams;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import czy.mooc.house.common.model.Community;
-import czy.mooc.house.common.model.House;
-import czy.mooc.house.common.model.HouseUser;
-import czy.mooc.house.common.model.User;
-import czy.mooc.house.common.model.UserMsg;
+import java.util.List;
 
 @Mapper
 public interface HouseMapper {
 
-    public List<House>  selectPageHouses(@Param("house")House house,@Param("pageParams") PageParams pageParams);
-    
-    public Long selectPageCount(@Param("house") House query);
-	
-	public int insert(User account);
+    //根据House对象和分页信息查询符合条件的房源
+    List<House> selectPageHouses(@Param("house") House house, @Param("pageParams") PageParams pageParams);
 
-	public List<Community> selectCommunity(Community community);
+    Long selectPageCount(@Param("house") House query);
 
-	public int insert(House house);
+    int insert(User account);
 
-	public HouseUser selectHouseUser(@Param("userId")Long userId,@Param("id") Long houseId,@Param("type") Integer integer);
-	
-	public HouseUser selectSaleHouseUser(@Param("id") Long houseId);
+    List<Community> selectCommunity(Community community);
 
-	public int insertHouseUser(HouseUser houseUser);
+    int insert(House house);
 
-	public int insertUserMsg(UserMsg userMsg);
+    HouseUser selectHouseUser(@Param("userId") Long userId, @Param("id") Long houseId, @Param("type") Integer integer);
 
-	public int updateHouse(House updateHouse);
-	
-	public  int downHouse(Long id);
+    HouseUser selectSaleHouseUser(@Param("id") Long houseId);
 
-	public int deleteHouseUser(@Param("id")Long id,@Param("userId") Long userId,@Param("type") Integer value);
-	
+    int insertHouseUser(HouseUser houseUser);
+
+    int insertUserMsg(UserMsg userMsg);
+
+    int updateHouse(House updateHouse);
+
+    int downHouse(Long id);
+
+    int deleteHouseUser(@Param("id") Long id, @Param("userId") Long userId, @Param("type") Integer value);
+
 }

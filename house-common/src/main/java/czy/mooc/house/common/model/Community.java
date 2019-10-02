@@ -1,5 +1,8 @@
 package czy.mooc.house.common.model;
 
+/*
+ 小区类
+ */
 public class Community {
 	private Integer id;
 	private String cityCode;

@@ -37,7 +37,7 @@ public class UserController {
      * @param modelMap
      * @return
      */
-    @RequestMapping("accounts/register")
+    @RequestMapping("/accounts/register")
     public String accountsRegister(User account, ModelMap modelMap) {
         //根据account对象为依据判断是否注册页获取请求，若为null跳转到注册页
         if (account == null || account.getName() == null) {
@@ -60,7 +60,7 @@ public class UserController {
      * @param key
      * @return
      */
-    @RequestMapping("accounts/verify")
+    @RequestMapping("/accounts/verify")
     public String verify(String key) {
         //判断key是否有效
         boolean result = userService.enable(key);
@@ -106,7 +106,7 @@ public class UserController {
      * @param request
      * @return
      */
-    @RequestMapping("accounts/logout")
+    @RequestMapping("/accounts/logout")
     public String logout(HttpServletRequest request) {
         HttpSession session = request.getSession(true);
         session.invalidate();
@@ -122,7 +122,7 @@ public class UserController {
      * @param updateUser
      * @return
      */
-    @RequestMapping("accounts/profile")
+    @RequestMapping("/accounts/profile")
     public String profile(HttpServletRequest req, User updateUser) {
         //若没传email过来说明是查询个人信息（更新用户时会将隐藏的email一起发过来）
         if (updateUser.getEmail() == null) {
@@ -148,7 +148,7 @@ public class UserController {
      * @param mode
      * @return
      */
-    @RequestMapping("accounts/changePassword")
+    @RequestMapping("/accounts/changePassword")
     public String changePassword(String email, String password, String newPassword,
                                  String confirmPassword, ModelMap mode) {
         //验证用户是否存在
@@ -172,7 +172,7 @@ public class UserController {
      * @param modelMap
      * @return
      */
-    @RequestMapping("accounts/remember")
+    @RequestMapping("/accounts/remember")
     public String remember(String username, ModelMap modelMap) {
         if (StringUtils.isBlank(username)) {
             return "redirect:/accounts/signin?" + ResultMsg.errorMsg("邮箱不能为空").asUrlParams();
@@ -182,7 +182,7 @@ public class UserController {
         return "/user/accounts/remember";
     }
 
-    @RequestMapping("accounts/reset")
+    @RequestMapping("/accounts/reset")
     public String reset(String key, ModelMap modelMap) {
         String email = userService.getResetEmail(key);
         if (StringUtils.isBlank(email)) {
@@ -193,7 +193,7 @@ public class UserController {
         return "/user/accounts/reset";
     }
 
-    @RequestMapping(value = "accounts/resetSubmit")
+    @RequestMapping(value = "/accounts/resetSubmit")
     public String resetSubmit(HttpServletRequest req, User user) {
         ResultMsg retMsg = UserHelper.validateResetPassword(user.getKey(), user.getPasswd(), user.getConfirmPasswd());
         if (!retMsg.isSuccess()) {
