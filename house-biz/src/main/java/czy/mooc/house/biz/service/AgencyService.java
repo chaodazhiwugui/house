@@ -21,7 +21,7 @@ public class AgencyService {
     private String imgPrefix;
 
     /**
-     * 根据用户id查询经纪机构
+     * 根据id查询经纪人
      * 设置用户头像
      *
      * @param userId
@@ -49,6 +49,7 @@ public class AgencyService {
         return null;
     }
 
+    //设置图片地址
     private void setImg(List<User> list) {
         list.forEach(i -> {
             i.setAvatar(imgPrefix + i.getAvatar());
@@ -56,9 +57,14 @@ public class AgencyService {
 
     }
 
+    /**
+     * 查询经纪人
+     */
     public PageData<User> getAllAgent(PageParams pageParams) {
+        //获取所有经纪人
         List<User> agents = agencyMapper.selectAgent(new User(), pageParams);
-        setImg(agents);
+        setImg(agents);//设置图片地址
+        //查询经纪人个数
         Long count = agencyMapper.selectAgentCount(new User());
         return PageData.buildPage(agents, count, pageParams.getPageSize(), pageParams.getPageNum());
     }

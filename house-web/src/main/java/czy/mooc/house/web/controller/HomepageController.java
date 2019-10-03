@@ -1,14 +1,13 @@
 package czy.mooc.house.web.controller;
 
-import java.util.List;
-
+import czy.mooc.house.biz.service.RecommendService;
+import czy.mooc.house.common.model.House;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import czy.mooc.house.biz.service.RecommendService;
-import czy.mooc.house.common.model.House;
+import java.util.List;
 
 @Controller
 public class HomepageController {
@@ -16,7 +15,7 @@ public class HomepageController {
   @Autowired
   private RecommendService recommendService;
   
-  @RequestMapping("index")
+  @RequestMapping("/index")
   public String accountsRegister(ModelMap modelMap){
     List<House> houses =  recommendService.getLastest();
     modelMap.put("recomHouses", houses);

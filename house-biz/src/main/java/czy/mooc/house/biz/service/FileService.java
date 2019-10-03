@@ -58,7 +58,7 @@ public class FileService {
 
     //保存头像到本地
     private File saveToLocal(MultipartFile file, String filePath2) throws IOException {
-        File newFile = new File(filePath + "/" + Instant.now().getEpochSecond() + "/" + file.getOriginalFilename());
+        File newFile = new File(filePath + "\\" + Instant.now().getEpochSecond() + "\\" + file.getOriginalFilename());
         if (!newFile.exists()) {
             newFile.getParentFile().mkdirs();
             newFile.createNewFile();

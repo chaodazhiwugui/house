@@ -39,9 +39,8 @@ public class House {
     private List<String> floorPlanList = Lists.newArrayList();
     private List<String> featureList = Lists.newArrayList();
 
-    private List<MultipartFile> houseFiles;
-
-    private List<MultipartFile> floorPlanFiles;
+    private List<MultipartFile> houseFiles;//房产图
+    private List<MultipartFile> floorPlanFiles;//户型图
 
 
     private String priceStr;

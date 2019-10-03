@@ -79,6 +79,11 @@ public class BeanHelper {
         }
     }
 
+    /**
+     * 插入数据后设置创建时间
+     * @param target
+     * @param <T>
+     */
     public static <T> void onInsert(T target) {
         Class<?> clazz = target.getClass();
         PropertyDescriptor[] descriptors = PropertyUtils.getPropertyDescriptors(clazz);

@@ -35,8 +35,7 @@ public class HouseController {
     private CommentService commentService;
 
     /**
-     * 获取房屋列表
-     * <p>
+     * 获取房产列表
      * 1.实现分页
      * 2.支持小区搜索、类型搜索
      * 3.支持排序
@@ -47,14 +46,19 @@ public class HouseController {
      */
     @RequestMapping("/house/list")
     public String houseList(Integer pageSize, Integer pageNum, House query, ModelMap modelMap) {
+        //查询房产列表
         PageData<House> ps = houseService.queryHouse(query, PageParams.build(pageSize, pageNum));
+        //获取热点房产
         List<House> hotHouses = recommendService.getHotHouse(CommonConstants.RECOM_SIZE);
         modelMap.put("recomHouses", hotHouses);
         modelMap.put("ps", ps);
         modelMap.put("vo", query);
-        return "house/listing";
+        return "/house/listing";
     }
 
+    /**
+     * 返回添加房产页面
+     */
     @RequestMapping("/house/toAdd")
     public String toAdd(ModelMap modelMap) {
         modelMap.put("citys", cityService.getAllCitys());
@@ -62,14 +66,21 @@ public class HouseController {
         return "/house/add";
     }
 
+    /**
+     * 添加房产
+     */
     @RequestMapping("/house/add")
     public String doAdd(House house) {
         User user = UserContext.getUser();
-        house.setState(CommonConstants.HOUSE_STATE_UP);
+        house.setState(CommonConstants.HOUSE_STATE_UP);//设置上架状态
+        //添加房产
         houseService.addHouse(house, user);
         return "redirect:/house/ownlist";
     }
 
+    /**
+     * 个人房产信息
+     */
     @RequestMapping("/house/ownlist")
     public String ownlist(House house, Integer pageNum, Integer pageSize, ModelMap modelMap) {
         User user = UserContext.getUser();
@@ -81,15 +92,15 @@ public class HouseController {
     }
 
     /**
-     * 查询房屋详情
-     * 查询关联经纪人
+     * 查询房屋详情，并且查询绑定的经纪机构
      */
     @RequestMapping("/house/detail")
     public String houseDetail(Long id, ModelMap modelMap) {
         //查询房源
         House house = houseService.queryOneHouse(id);
-        //根据房源查询绑定的用户
+        //查询和房源查询绑定的用户
         HouseUser houseUser = houseService.getHouseUser(id);
+        //查看房产详情时房产热度+1
         recommendService.increase(id);
         //查询用户评论
         List<Comment> comments = commentService.getHouseComments(id, 8);
@@ -107,51 +118,64 @@ public class HouseController {
 
     /**
      * 留言
-     *
-     * @param userMsg
-     * @return
      */
     @RequestMapping("/house/leaveMsg")
     public String houseMsg(UserMsg userMsg) {
+        //添加留言
         houseService.addUserMsg(userMsg);
         return "redirect:/house/detail?id=" + userMsg.getHouseId() + ResultMsg.successMsg("留言成功").asUrlParams();
     }
 
-    //1.评分
+    /**
+     * 评分
+     */
     @ResponseBody
     @RequestMapping("/house/rating")
     public ResultMsg houseRate(Double rating, Long id) {
+        //更新评分
         houseService.updateRating(id, rating);
         return ResultMsg.successMsg("ok");
     }
 
 
-    //2.收藏
+    /**
+     * 收藏
+     */
     @ResponseBody
     @RequestMapping("/house/bookmark")
     public ResultMsg bookmark(Long id) {
         User user = UserContext.getUser();
-        houseService.bindUser2House(id, user.getId(), true);
+        //绑定用户和房产的关系
+        houseService.bindUser2House(id, user.getId(), true);//true表示收藏、false表示售卖
         return ResultMsg.successMsg("ok");
     }
 
-    //3.删除收藏
+    /**
+     * 取消收藏
+     */
     @ResponseBody
     @RequestMapping("/house/unbookmark")
     public ResultMsg unbookmark(Long id) {
         User user = UserContext.getUser();
+        //取消用户——房屋的收藏关系
         houseService.unbindUser2House(id, user.getId(), HouseUserType.BOOKMARK);
         return ResultMsg.successMsg("ok");
     }
 
+    /**
+     * 下架房屋
+     */
     @RequestMapping(value = "/house/del")
     public String delsale(Long id, String pageType) {
         User user = UserContext.getUser();
+        //取消用户和房屋的售卖关系
         houseService.unbindUser2House(id, user.getId(), pageType.equals("own") ? HouseUserType.SALE : HouseUserType.BOOKMARK);
         return "redirect:/house/ownlist";
     }
 
-    //4.收藏列表
+    /**
+     * 返回收藏列表页
+     */
     @RequestMapping("/house/bookmarked")
     public String bookmarked(House house, Integer pageNum, Integer pageSize, ModelMap modelMap) {
         User user = UserContext.getUser();

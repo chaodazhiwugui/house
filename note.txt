@@ -8,3 +8,25 @@ D:\static\imgs
 
 ----------
 保存图片时数据库存放的是相对路径，当取出路径时需要拼接上服务器图片存放地址前缀
+-----------------
+Redis Zincrby 命令对有序集合中指定成员的分数加上增量 increment
+Redis Zremrangebyrank 命令用于移除有序集中，指定排名(rank)区间内的所有成员。
+Redis Zrevrange 命令返回有序集中，指定区间内的成员。其中成员的位置按分数值递减(从大到小)来排列。
+
+--------------
+nginx
+
+server {
+        listen       8081;
+        server_name  localhost;
+        charset utf-8;
+
+        location /images {
+            alias /user/images/;
+            expires 1d;
+        }
+
+我们在配置文件设置  file.prefix=http://127.0.0.1:8081/images
+当需要获取图片时会自动加上该前缀，因为我们在nginx.conf监听了8081端口，
+所以http://127.0.0.1:8081/images 会变成  http://127.0.0.1:8081/user/images/
+这样就可以找到存放在D:\user\images中的图片

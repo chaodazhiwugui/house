@@ -20,6 +20,15 @@ public class PageData<T> {
         this.list = list;
     }
 
+    /**
+     * 构建分页结果
+     * @param list 存放返回给前端的数据
+     * @param count  数据总量
+     * @param pageSize  单页数据量
+     * @param pageNum  页数
+     * @param <T>
+     * @return
+     */
     public static <T> PageData<T> buildPage(List<T> list, Long count, Integer pageSize, Integer pageNum) {
         Pagination pagination = new Pagination(pageSize, pageNum, count);
         return new PageData<>(pagination, list);

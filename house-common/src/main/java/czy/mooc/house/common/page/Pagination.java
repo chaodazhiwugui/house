@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
+
 /*
  分页类
  */
@@ -12,10 +13,10 @@ import java.util.List;
 @Setter
 public class Pagination {
 
-    private int pageNum;//页码
+    private int pageNum;//当前页数
     private int pageSize;//单页数据量
     private long totalCount;//总数
-    private List<Integer> pages = Lists.newArrayList();
+    private List<Integer> pages = Lists.newArrayList();//存放页数下标，比如1、2、3、4、pageNum、......、pageCount
 
     public Pagination(Integer pageSize, Integer pageNum, Long totalCount) {
         this.totalCount = totalCount;
@@ -28,7 +29,7 @@ public class Pagination {
         Long pageCount = totalCount / pageSize + ((totalCount % pageSize == 0) ? 0 : 1);
         if (pageCount > pageNum) {
             for (int i = pageNum + 1; i <= pageCount; i++) {
-                pages.add(i);
+                pages.add(i);//pages用来给浏览器填充页数下标
             }
         }
     }

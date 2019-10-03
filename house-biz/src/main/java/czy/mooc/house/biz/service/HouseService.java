@@ -60,10 +60,6 @@ public class HouseService {
 
     /**
      * 查询符合条件的房源，并且设置图片地址
-     *
-     * @param query
-     * @param pageParams
-     * @return
      */
     public List<House> queryAndSetImg(House query, PageParams pageParams) {
         //根据House对象和分页信息查询符合条件的房源，然后设置图片地址
@@ -85,12 +81,10 @@ public class HouseService {
      * 添加房屋图片
      * 添加户型图片
      * 插入房产信息
-     * 绑定用户到房产的关系
-     *
-     * @param house
-     * @param user
+     * 绑定用户——房产的关系
      */
     public void addHouse(House house, User user) {
+        //若用户上传房产图片，则转换成string类型后保存到本地
         if (CollectionUtils.isNotEmpty(house.getHouseFiles())) {
             String images = Joiner.on(",").join(fileService.getImgPaths(house.getHouseFiles()));
             house.setImages(images);
@@ -99,12 +93,18 @@ public class HouseService {
             String images = Joiner.on(",").join(fileService.getImgPaths(house.getFloorPlanFiles()));
             house.setFloorPlan(images);
         }
-        BeanHelper.onInsert(house);
+        BeanHelper.onInsert(house);//设置创建时间
+        //添加房产
         houseMapper.insert(house);
-        bindUser2House(house.getId(), user.getId(), false);
+        //绑定用户和房产的关系
+        bindUser2House(house.getId(), user.getId(), false);//false表示不是收藏，而是售卖
     }
 
+    /*
+     * 绑定用户和房产
+     */
     public void bindUser2House(Long houseId, Long userId, boolean collect) {
+        //查看用户和房产是否已经绑定
         HouseUser existhouseUser = houseMapper.selectHouseUser(userId, houseId, collect ? HouseUserType.BOOKMARK.value : HouseUserType.SALE.value);
         if (existhouseUser != null) {
             return;
@@ -113,8 +113,10 @@ public class HouseService {
         houseUser.setHouseId(houseId);
         houseUser.setUserId(userId);
         houseUser.setType(collect ? HouseUserType.BOOKMARK.value : HouseUserType.SALE.value);
+
         BeanHelper.setDefaultProp(houseUser, HouseUser.class);
         BeanHelper.onInsert(houseUser);
+        //插入user-house关系
         houseMapper.insertHouseUser(houseUser);
     }
 
@@ -125,9 +127,6 @@ public class HouseService {
 
     /**
      * 根据id查询房源
-     *
-     * @param id
-     * @return
      */
     public House queryOneHouse(Long id) {
         House query = new House();
@@ -139,6 +138,9 @@ public class HouseService {
         return null;
     }
 
+    /**
+     * 给经纪人留言
+     */
     public void addUserMsg(UserMsg userMsg) {
         BeanHelper.onInsert(userMsg);
         houseMapper.insertUserMsg(userMsg);
@@ -147,9 +149,14 @@ public class HouseService {
         mailService.sendMail("来自用户" + userMsg.getEmail() + "的留言", userMsg.getMsg(), agent.getEmail());
     }
 
+    /**
+     * 更新评分
+     */
     public void updateRating(Long id, Double rating) {
         House house = queryOneHouse(id);
+        //取出旧的分数值
         Double oldRating = house.getRating();
+        //如果是第一次评分则直接设置，否则取分数平均值，最高不超过5
         Double newRating = oldRating.equals(0D) ? rating : Math.min((oldRating + rating) / 2, 5);
         House updateHouse = new House();
         updateHouse.setId(id);
@@ -158,11 +165,14 @@ public class HouseService {
         houseMapper.updateHouse(updateHouse);
     }
 
+    /**
+     * 解绑用户和房产
+     */
     public void unbindUser2House(Long id, Long userId, HouseUserType type) {
         if (type.equals(HouseUserType.SALE)) {
-            houseMapper.downHouse(id);
+            houseMapper.downHouse(id);//下架房产
         } else {
-            houseMapper.deleteHouseUser(id, userId, type.value);
+            houseMapper.deleteHouseUser(id, userId, type.value);//删除绑定关系
         }
 
     }
