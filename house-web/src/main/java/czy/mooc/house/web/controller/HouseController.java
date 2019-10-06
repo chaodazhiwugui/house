@@ -110,6 +110,7 @@ public class HouseController {
         }
         //查询热点房源
         List<House> rcHouses = recommendService.getHotHouse(CommonConstants.RECOM_SIZE);
+        modelMap.put("user", UserContext.getUser());
         modelMap.put("recomHouses", rcHouses);
         modelMap.put("house", house);
         modelMap.put("commentList", comments);

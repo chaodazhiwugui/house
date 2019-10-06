@@ -12,6 +12,8 @@ public class CommonConstants {
 	  public static final Integer HOUSE_STATE_DOWN = 2;
 	  
 	  public static final Integer RECOM_SIZE = 3;
+
+	public static final Integer COMMENT_HOUSE_TYPE  = 1;
 	  
 	  public static final Integer COMMENT_BLOG_TYPE  = 2;
 

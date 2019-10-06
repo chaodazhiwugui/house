@@ -29,7 +29,7 @@ public class WebMvcConf extends WebMvcConfigurerAdapter {
                 .addPathPatterns("/house/bookmarked").addPathPatterns("/house/del")
                 .addPathPatterns("/house/ownlist").addPathPatterns("/house/add")
                 .addPathPatterns("/house/toAdd").addPathPatterns("/agency/agentMsg")
-                .addPathPatterns("/comment/leaveComment").addPathPatterns("/comment/leaveBlogComment");
+                .addPathPatterns("/comment/leaveHouseComment").addPathPatterns("/comment/leaveBlogComment");
         super.addInterceptors(registry);
     }
 }

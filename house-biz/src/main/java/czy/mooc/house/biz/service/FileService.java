@@ -85,8 +85,7 @@ public class FileService {
 //        System.out.println(f);
 //        System.out.println(f.getAbsolutePath());
 
-
-        File file=new File("/user/imgs");
+        File file = new File("/user/imgs");
         System.out.println(file);
 
     }

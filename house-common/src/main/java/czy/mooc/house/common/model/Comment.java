@@ -13,14 +13,14 @@ import java.util.Date;
 public class Comment {
   
   private Long id;
-  private String content;
+  private String content;//内容
   private Long   houseId;
   private Date   createTime;
   private Integer blogId;
-  private Integer type;
+  private Integer type;//类型
   private Long    userId;
   
   private String  userName;
-  private String  avatar;
+  private String  avatar;//头像地址
 
 }

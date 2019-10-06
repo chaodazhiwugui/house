@@ -30,7 +30,7 @@ public class RecommendService {
      */
     public void increase(Long id) {
         try {
-            Jedis jedis = new Jedis("127.0.0.1");
+            Jedis jedis = new Jedis("127.0.0.1",6379,10000);
             jedis.auth("123");
             //对redis有序集合中指定id的分数加上1
             jedis.zincrby(HOT_HOUSE_KEY, 1.0D, id + "");
@@ -46,7 +46,7 @@ public class RecommendService {
     //返回热点房产id
     public List<Long> getHot() {
         try {
-            Jedis jedis = new Jedis("127.0.0.1");
+            Jedis jedis = new Jedis("127.0.0.1",6379,10000);
             jedis.auth("123");
             //按从高到低排序取出所有元素  z + reverse + range
             Set<String> idSet = jedis.zrevrange(HOT_HOUSE_KEY, 0, -1);

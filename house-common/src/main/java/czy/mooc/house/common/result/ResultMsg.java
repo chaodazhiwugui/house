@@ -12,9 +12,10 @@ import java.util.Map;
  */
 public class ResultMsg {
 
-    public static final String errorMsgKey = "errorMsg";
 
-    public static final String successMsgKey = "successMsg";
+    private static final String errorMsgKey = "errorMsg";
+
+    private static final String successMsgKey = "successMsg";
 
     private String errorMsg;
 
@@ -41,7 +42,6 @@ public class ResultMsg {
         this.successMsg = successMsg;
     }
 
-
     public static ResultMsg errorMsg(String msg) {
         ResultMsg resultMsg = new ResultMsg();
         resultMsg.setErrorMsg(msg);
@@ -53,6 +53,7 @@ public class ResultMsg {
         resultMsg.setSuccessMsg(msg);
         return resultMsg;
     }
+
 
     //生成Map存放successMsg和errorMsg
     public Map<String, String> asMap() {

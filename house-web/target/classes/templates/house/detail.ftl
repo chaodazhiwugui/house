@@ -193,7 +193,7 @@
                                 <section id="comments">
                                     <div class="agent-form">
                                         <form role="form" id="form-contact-agent" method="post"
-                                              action="/comment/leaveComment" class="clearfix">
+                                              action="/comment/leaveHouseComment" class="clearfix">
                                             <input type="hidden" name="houseId" value="${house.id}">
                                             <div class="form-group">
                                                 <label for="form-contact-agent-message">评论</label>
@@ -218,11 +218,22 @@
                                                     </div>
                                                 </figure>
                                                 <div class="comment-wrapper">
-                                                    <div class="name pull-left">${comment.userName}</div>
-                                                    <span class="date pull-right"><span
-                                                                class="fa fa-calendar"></span>${(comment.createTime)?datetime}</span>
-                                                    <p>${comment.content}
-                                                    </p>
+                                                    <form action="/comment/deleteHouseComment" method="post">
+                                                        <input type="hidden" name="userId" value="${comment.userId}">
+                                                        <input type="hidden" name="houseId" value="${house.id}">
+                                                        <div class="name pull-left">${comment.userName}</div>
+                                                        <span class="date pull-right"><span
+                                                                    class="fa fa-calendar"></span>${(comment.createTime)?datetime}</span>
+                                                        <p>${comment.content}
+                                                            <#if (comment.userId)==(user.id)>
+                                                                <button type="submit" class="btn pull-right"
+                                                                        id="form-contact-agent-delete">删除
+                                                                </button>
+                                                            </#if>
+                                                        </p>
+                                                    </form>
+
+
                                                     <hr>
                                                 </div>
                                             </li>

@@ -1,205 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="418d2d89-8c8b-4ec0-a69e-3688b91e664b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="ddbd90eb-341f-4e2e-8f6e-b3f65c1e29eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/house.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/AgencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/AgencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/mapper/CommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/HouseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/RecommendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/RecommendService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/AgencyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/AgencyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/comment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/comment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/mapper/CommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/CommentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/FileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/HouseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/HouseService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/RecommendService.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/czy/mooc/house/biz/service/RecommendService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/constants/HouseUserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/constants/HouseUserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Community.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Community.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/page/PageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/page/PageData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/page/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/page/Pagination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/utils/BeanHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/utils/BeanHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/constants/HouseUserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/constants/HouseUserType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/model/Community.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/model/Community.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/model/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/model/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/page/PageData.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/page/PageData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/page/Pagination.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/page/Pagination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/utils/BeanHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/utils/BeanHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/AgencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/AgencyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/HomepageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/HomepageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/mapper/comment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/mapper/comment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/constants/CommonConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/constants/CommonConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/result/ResultMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/result/ResultMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/constants/CommonConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/constants/CommonConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/result/ResultMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/target/classes/czy/mooc/house/common/result/ResultMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/CommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/HouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/HouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/UserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/interceptor/WebMvcConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/interceptor/WebMvcConf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493366546/property-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493368937/property-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493370397/property-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493370428/property-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493370993/property-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493370999/property-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493381459/property-detail-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493381460/property-detail-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493381462/property-detail-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493432771/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493432771/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493432771/property-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493432771/property-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493432771/property-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438372/member-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438478/member-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493439911/client-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493439976/client-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493440153/member-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493440315/member-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493442221/member-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493442257/member-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493450178/member-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493450545/member-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493452469/client-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493452900/client-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494253506/client-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494253659/agent-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494255232/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494255232/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494255495/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494255495/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494255495/property-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494255495/property-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494255495/property-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494256125/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494256125/property-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494256315/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494256315/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494256315/property-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494256315/property-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1494660392/1.pg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1498395232/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1498395611/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1498395729/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1498396301/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1498396352/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1498437765/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499001688/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499001755/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499001847/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499001913/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499001962/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499002165/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499002218/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499002340/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499002415/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499002568/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499002749/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499002844/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499002883/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499003060/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499003339/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499004324/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499004595/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1499005041/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500795278/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500795647/property-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500795648/property-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500795697/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500796444/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500796444/property-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500796444/property-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800314/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800314/property-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800314/property-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800727/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800727/property-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800727/property-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800766/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800766/property-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800766/property-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800766/property-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800883/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800883/property-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800883/property-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800967/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800967/property-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500800967/property-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801115/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801115/property-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801115/property-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801115/property-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801204/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801204/property-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801204/property-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801346/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801346/property-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801594/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801594/property-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500801594/property-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500803086/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1500803086/property-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510583185/入口卡片状态流转.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510583195/入口卡片状态流转.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510583433/agent-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510583433/入口卡片状态流转.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510583480/agent-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510583978/agent-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510584499/agent-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510587283/agent-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1510587452/agent-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514722627/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514722627/property-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514722627/property-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514722627/property-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727258/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727258/property-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727258/property-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727258/property-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727307/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727307/property-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727307/property-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727307/property-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727520/floor-plan-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727520/property-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727520/property-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514727520/property-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1514816998/client-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515216506/floor-plan-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515216506/property-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515216506/property-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515216506/property-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515217056/property-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515217056/property-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515217056/property-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515217057/floor-plan-big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515220264/member-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515220849/agent-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515223523/member-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515223690/member-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1569914527/www.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/blog/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/blog/detail.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/blog/listing.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/blog/listing.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/AgencyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/AgencyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/HomepageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/HomepageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/CommentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/HouseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/HouseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/static/static/imgs/1493438523/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/static/static/imgs/1493438523/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/static/static/imgs/1569914527/www.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/UserHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/controller/UserHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/interceptor/WebMvcConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/czy/mooc/house/web/interceptor/WebMvcConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/static/static/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/static/static/assets/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/blog/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/blog/detail.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/blog/listing.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/blog/listing.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/common/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/common/common.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/house/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/house/detail.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/house-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/house-debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/house-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/house-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/house-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/house-info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/house-warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/house-warn.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/house-biz/target/" />
-    <ignored path="$PROJECT_DIR$/house-web/target/" />
     <ignored path="$PROJECT_DIR$/house-common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="logs/" />
-    <ignored path="note.txt" />
-    <ignored path=".idea/" />
+    <ignored path="$PROJECT_DIR$/house-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,74 +70,34 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/house-web/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/HouseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
-              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="336">
+                <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>com.mooc</find>
-      <find>update</find>
-      <find>0</find>
-      <find>fileSizeThreshold</find>
-      <find>loginUser</find>
-      <find>imgPrefix</find>
-      <find>selectCommunity</find>
-      <find>pagination</find>
-      <find>selectSaleHouseUser</find>
-      <find>selectAgentCount</find>
-      <find>selectAgent</find>
-      <find>selectPageHouses</find>
-      <find>houseCondition</find>
-      <find>jedis</find>
-      <find>downHouse</find>
-      <find>deleteHouseUser</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>czy.mooc</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -287,57 +105,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/HouseApplication.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/HouseApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/house-biz/pom.xml" />
-        <option value="$PROJECT_DIR$/house-web/pom.xml" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/result/ResultMsg.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mapper/agency.xml" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/MailService.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/signin.ftl" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/profile.ftl" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/interceptor/UserContext.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/constants/CommonConstants.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/interceptor/WebMvcConf.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/interceptor/AuthInterceptor.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/interceptor/AuthActionInterceptor.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/UserService.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/mapper/HouseMapper.java" />
-        <option value="$PROJECT_DIR$/house-common/pom.xml" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Agency.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Blog.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/City.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Comment.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/User.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/page/PageParams.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/house/listing.ftl" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/UserMsg.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/HouseUser.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/page/PageData.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/page/Pagination.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/AgencyService.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/AgencyController.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/HomepageController.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Community.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/House.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/utils/BeanHelper.java" />
-        <option value="$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/constants/HouseUserType.java" />
-        <option value="$PROJECT_DIR$/note.txt" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/FileService.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/RecommendService.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mapper/house.xml" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/HouseService.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/HouseController.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -349,23 +117,6 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="jdkForImporter" value="1.8" />
-      </MavenImportingSettings>
-    </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="jdk-1.8" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="215" />
@@ -373,16 +124,12 @@
     <option name="width" value="1445" />
     <option name="height" value="505" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -397,17 +144,61 @@
             </path>
             <path>
               <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="JShell Console" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czy" type="462c0819:PsiDirectoryNode" />
+              <item name="mooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="czy" type="462c0819:PsiDirectoryNode" />
+              <item name="mooc" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,33 +211,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/project/p2ipxd/housev2.0/monitor/admin" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ IDEA 2019.1.2\project\house" />
-      <recent name="D:\IntelliJ IDEA 2019.1.2\project\house\house-web\src\main\resources\static\static\imgs\1493438523" />
-      <recent name="D:\IntelliJ IDEA 2019.1.2\project\house\house-web\src\main\resources\static\static\imgs\13415038974" />
-      <recent name="D:\IntelliJ IDEA 2019.1.2\project\house\house-web\src\main\resources\static\static\imgs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ IDEA 2019.1.2\project\house\house-web\src\main\resources\static\static\imgs\1515223523" />
-      <recent name="D:\IntelliJ IDEA 2019.1.2\project\house\house-web\src\main\resources\static\static\imgs" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -460,67 +230,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HouseApplication">
-    <configuration name="FileService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.mooc.house.biz.service.FileService" />
-      <module name="house-biz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="czy.mooc.house.biz.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResultMsg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.mooc.house.common.result.ResultMsg" />
-      <module name="house-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="czy.mooc.house.common.result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="czy.mooc.house.biz.service.UserService" />
-      <module name="house-biz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="czy.mooc.house.biz.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="HouseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="house-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="czy.mooc.house.HouseApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HouseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="house-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mooc.house.HouseApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HouseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="house-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="czy.mooc.house.HouseApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -589,76 +302,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.FileService" />
-      <item itemvalue="Application.ResultMsg" />
-      <item itemvalue="Application.UserService" />
-      <item itemvalue="Spring Boot.HouseApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.FileService" />
-        <item itemvalue="Application.UserService" />
-        <item itemvalue="Application.ResultMsg" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="418d2d89-8c8b-4ec0-a69e-3688b91e664b" name="Default Changelist" comment="" />
-      <created>1569667183206</created>
+      <changelist id="ddbd90eb-341f-4e2e-8f6e-b3f65c1e29eb" name="Default Changelist" comment="" />
+      <created>1570289225564</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569667183206</updated>
-      <workItem from="1569667184769" duration="4009000" />
-      <workItem from="1569677189526" duration="125000" />
-      <workItem from="1569677336006" duration="661000" />
-      <workItem from="1569724206166" duration="498000" />
-      <workItem from="1569746394305" duration="7209000" />
-      <workItem from="1569835532887" duration="95875000" />
+      <updated>1570289225564</updated>
+      <workItem from="1570289230722" duration="146000" />
+      <workItem from="1570321845875" duration="904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108377000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="1050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1640625" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19270833" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.5841584" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.6732394" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.5841313" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32831737" />
       <window_info anchor="bottom" id="Problems" order="4" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32957748" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.23803009" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.38732395" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.5157319" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.36209336" />
       <window_info anchor="bottom" id="Message" order="11" />
-      <window_info anchor="bottom" id="Find" order="12" weight="0.32831737" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32957748" />
+      <window_info anchor="bottom" id="Find" order="12" />
+      <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -667,7 +355,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.21218206" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -676,334 +364,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/agent1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493438523/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="631" column="5" lean-forward="true" selection-start-line="631" selection-start-column="5" selection-end-line="631" selection-end-column="5" />
-          <folding>
-            <element signature="e#37238#37239#0" expanded="true" />
-            <element signature="e#37271#37272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.5.0/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="94" column="47" lean-forward="true" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
-          <folding>
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.5.0/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Ordering.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/page/PageParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/constants/CommonConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/AgencyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/HomepageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/CityService.java">
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/HouseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/Community.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/utils/BeanHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/model/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="179" column="18" selection-start-line="179" selection-start-column="18" selection-end-line="179" selection-end-column="18" />
-          <folding>
-            <element signature="e#3751#3752#0" expanded="true" />
-            <element signature="e#3782#3783#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/agency-logo-03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1570024618/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1570024617/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1569914527/www.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/FileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="e#506#520#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515217056/property-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515217056/property-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/property-04.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/property-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/thumb-property-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/logo@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/slide-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/user-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/RecommendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/flags/ae.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/slide-03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/slide-04.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/property-03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1515217056/property-03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-735">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/ownlist.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1890" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/MailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
-          <folding>
-            <element signature="e#1005#1021#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/listing.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="163" column="44" selection-start-line="163" selection-start-column="44" selection-end-line="163" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#section#1;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#aside#1;n#section#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/czy/mooc/house/common/constants/HouseUserType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/mapper/HouseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/house.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/czy/mooc/house/biz/service/HouseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/czy/mooc/house/web/controller/HouseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="168" column="53" selection-start-line="168" selection-start-column="53" selection-end-line="168" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/mooc/admin/AdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1035,7 +410,6 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1069,11 +443,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test</last-edited>
+          <last-edited>house-biz</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
